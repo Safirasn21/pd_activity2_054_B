@@ -24,7 +24,7 @@ int main() {
 	do
 	{
 		cout << "\n\n_________" << endl;
-		cout << "__M E N U__" << endl;
+		cout << "___M E N U___" << endl;
 		cout << "_______" << endl;
 
 		cout << "1. Luas Persegipanjang" << endl;
@@ -56,10 +56,10 @@ int main() {
 		case 3:
 			cout << "Masukan jari-jari : ";
 			cin >> jejari;
-			cout << "Luas Lingkaran = " << LuasLingkaran(jejari);
+			cout << "Luas Lingkaran = " << Luaskingkaran(jejari);
 			break;
 
-		case 4: 
+		case 4:
 
 			break;
 		default:
